@@ -40,7 +40,34 @@
 			"file": "voting-client/src/index.jsx",
 			"settings":
 			{
-				"buffer_size": 253,
+				"buffer_size": 478,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "voting-client/src/components/Results.jsx",
+			"settings":
+			{
+				"buffer_size": 613,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "voting-client/test/components/Results_spec.jsx",
+			"settings":
+			{
+				"buffer_size": 851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "voting-client/src/components/App.jsx",
+			"settings":
+			{
+				"buffer_size": 329,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -103,7 +130,7 @@
 			"file": "voting-client/package.json",
 			"settings":
 			{
-				"buffer_size": 948,
+				"buffer_size": 978,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,6 +192,8 @@
 	],
 	"file_history":
 	[
+		"/D/DevBed/React/.gitignore",
+		"/D/DevBed/React/npm-debug.log",
 		"/D/DevBed/React/voting-client/npm-debug.log",
 		"/D/DevBed/React/voting-client/src/index.jsx",
 		"/D/DevBed/React/voting-server/entries.json",
@@ -174,7 +203,6 @@
 		"/D/DevBed/React/voting-server/src/store.js",
 		"/D/DevBed/React/voting-server/index.js",
 		"/D/DevBed/React/voting-client/src/index.js",
-		"/D/DevBed/React/.gitignore",
 		"/D/DevBed/redux-todomvc/src/index.js",
 		"/D/DevBed/redux-todomvc/src/index.jsx",
 		"/C/Users/User/Desktop/node_workshops/100.js",
@@ -344,7 +372,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -353,15 +381,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 253,
+						"buffer_size": 478,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
+								327,
+								327
 							]
 						],
 						"settings":
@@ -370,7 +398,7 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 58.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -378,19 +406,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "voting-client/src/components/Voting.jsx",
+					"file": "voting-client/src/components/Results.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 378,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								283,
+								283
 							]
 						],
 						"settings":
@@ -408,6 +436,96 @@
 				},
 				{
 					"buffer": 3,
+					"file": "voting-client/test/components/Results_spec.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "voting-client/src/components/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "voting-client/src/components/Voting.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "voting-client/src/components/Vote.jsx",
 					"semi_transient": false,
 					"settings":
@@ -434,11 +552,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "voting-client/src/components/Winner.jsx",
 					"semi_transient": false,
 					"settings":
@@ -464,11 +582,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "voting-client/test/components/Voting_spec.jsx",
 					"semi_transient": false,
 					"settings":
@@ -494,11 +612,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "voting-client/webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -524,11 +642,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "voting-client/test/test_helper.js",
 					"semi_transient": false,
 					"settings":
@@ -554,16 +672,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "voting-client/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 948,
+						"buffer_size": 978,
 						"regions":
 						{
 						},
@@ -585,7 +703,7 @@
 						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
