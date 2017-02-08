@@ -49,7 +49,7 @@
 			"file": "voting-client/src/components/Results.jsx",
 			"settings":
 			{
-				"buffer_size": 613,
+				"buffer_size": 932,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -58,7 +58,7 @@
 			"file": "voting-client/test/components/Results_spec.jsx",
 			"settings":
 			{
-				"buffer_size": 851,
+				"buffer_size": 1665,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -410,15 +410,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 613,
+						"buffer_size": 932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								119,
+								119
 							]
 						],
 						"settings":
@@ -440,15 +440,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 851,
+						"buffer_size": 1665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								1198,
+								1198
 							]
 						],
 						"settings":
