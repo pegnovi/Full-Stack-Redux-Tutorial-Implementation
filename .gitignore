@@ -1,3 +1,5 @@
 voting-server/node_modules/
 voting-client/node_modules/
 *.log
+*.sublime-project
+*.sublime-workspace
