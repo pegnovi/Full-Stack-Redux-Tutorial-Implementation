@@ -21,8 +21,8 @@ export function next(state) {
 
 	if(entries.size === 1) {
 		return state.remove('vote')
-								.remove('entries')
-								.set('winner', entries.first());
+					.remove('entries')
+					.set('winner', entries.first());
 	}
 	else {
 		return state.merge({
@@ -33,9 +33,12 @@ export function next(state) {
 }
 
 export function vote(voteState, entry) {
-	return voteState.updateIn(
-		['tally', entry],
-		0,
-		tally => tally + 1
-	);
+	if(voteState.get('pair').includes(entry)) {
+		return voteState.updateIn(
+			['tally', entry],
+			0,
+			tally => tally + 1
+		);
+	}
+	return voteState;
 }

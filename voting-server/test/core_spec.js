@@ -133,6 +133,24 @@ describe('application logic', () => {
 			}));
 		});
 
+		it('prevents invalid votes', () => {
+			const state = Map({
+				pair: List.of('Trainspotting', '28 Days Later'),
+				tally: Map({
+					'Trainspotting': 3,
+					'28 Days Later': 2
+				})
+			});
+			const nextState = vote(state, 'Sunshine');
+			expect(nextState).to.equal(Map({
+				pair: List.of('Trainspotting', '28 Days Later'),
+				tally: Map({
+					'Trainspotting': 3,
+					'28 Days Later': 2
+				})
+			}));
+		});
+
 	});
 
 });
